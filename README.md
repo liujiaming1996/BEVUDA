@@ -32,7 +32,7 @@ As shown in this table, along with the increased foggy degree, the baseline meth
 
 Visualizations of our method benefit. The upper and bottom parts are visualization of BevDepth and our proposed method, respectively.
 
-<img src="assets/8.png" width="700" >
+<img src="assets/7.png" width="900" >
 
 In contrast with the visualization on submission, we further present some visualization results of the prediction produced by the MATS and the baseline BEVDpeth on the most challenging scenario (day-night), as shown in this Figure. Due to the faint light of night-time data, we can not classify and locate objects even with the naked eye, not to mention camera-based methods. It is quite clear that the BEVDepth has various inaccurate and missing detection, while MATS yields more accurate localization results as its predicted green boxs overlap better with the ground truth red boxs.
 We can also observe that MATS can detect objects that baseline ignores, demonstrating the superiority of MATS in object detection and presenting great potential in deploying to real-world autonomous driving. However, our proposed method still has some missing detection which inspires us to pay more attention to the BEV perception at night time.
